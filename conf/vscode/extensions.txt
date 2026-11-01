@@ -1,0 +1,15 @@
+# code --list-extensions
+
+autodocstring
+codex
+drawio
+github copilot
+jupyter
+ruff
+tabout
+remote ssh
+latex workshop
+
+python
+c++ / cmake
+rust

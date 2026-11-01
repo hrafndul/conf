@@ -1,0 +1,209 @@
+{
+    // Zen Mode
+    "zenMode.centerLayout": true,
+    "zenMode.fullScreen": true,
+
+    // Disable Telemetry
+    "telemetry.telemetryLevel": "off",
+
+    // Window
+    "window.commandCenter": false,
+    "window.zoomLevel": 0,
+
+
+    // Workbench
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "workbench.enableExperiments": false,
+    "workbench.reduceMotion": "on",
+    "workbench.statusBar.visible": false,
+    "workbench.list.smoothScrolling": false,
+    "workbench.tree.indent": 40,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.enablePreview": false, 
+    "workbench.layoutControl.enabled": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        // f5f5f5
+        // fbf7f1
+        "editor.background": "#fbf7f1", // Change this hex code to your desired color
+        "editor.foreground": "#000000", // Text color
+        "editorCursor.foreground": "#000000", // Cursor background color
+        "sideBar.background": "#fbf7f1", // Sidebar background,
+        "editorGroupHeader.tabsBackground": "#f5f5f5", // Background color of the tab bar
+        "tab.activeBackground": "#9c9c9c3b", // Active tab background
+        "tab.inactiveBackground": "#f5f5f5", // Inactive tab background
+        "editorLineNumber.foreground": "#949494",
+        "editorLineNumber.activeForeground": "#949494",
+        "editorGutter.background": "#fbf7f1"
+        // "activityBar.background": "#141414", // Activity bar (left bar)
+        // "titleBar.activeBackground": "#141414", // Top title bar
+        // "titleBar.inactiveBackground": "#141414", // Top title bar when window is
+        // "panel.background": "#141414", // Bottom panel (terminal, problems, output, etc.)
+        // "tab.border": "#141414", // Tab border
+        // "tab.activeBorder": "#1133bb", // Active tab border
+        // "tab.activeBorderTop": "#141414", // Active tab top border
+        // "tab.inactiveBorder": "#f5f5f5", // Inactive tab border
+        // "tab.hoverBackground": "#1A1A1A", // Tab hover background
+        // "tab.unfocusedHoverBackground": "#f5f5f5", // Tab hover
+        // "panel.border": "#141414", // Bottom panel border
+        // "panelTitle.activeBorder": "#007ACC", // Bottom panel title border
+        // "panelTitle.activeForeground": "#FFFFFF", // Bottom panel title text color
+        // "panelTitle.inactiveForeground": "#CCCCCC", // Bottom panel title text color when inactive
+        // "statusBar.foreground": "#FFFFFF", // Bottom status bar text color
+        // "statusBar.background": "#007ACC", // Bottom status bar background color
+        // "statusBar.noFolderBackground": "#007ACC", // Bottom status bar when no folder is opened
+        // "statusBar.debuggingBackground": "#CC6633", // Bottom status bar
+        // "statusBarItem.hoverBackground": "#005A9E", // Status bar item hover background
+        // "statusBarItem.prominentBackground": "#005A9E", // Prominent status bar item background
+        // "statusBarItem.prominentHoverBackground": "#004578", // Prominent status bar item hover background
+        // "sideBarSectionHeader.background": "#1E1E1E", // Sidebar section header background
+        // "sideBarSectionHeader.foreground": "#FFFFFF", // Sidebar section header text color
+        // "list.hoverBackground": "#2A2D2E", // List item hover background
+        // "list.activeSelectionBackground": "#094771", // Active list item background
+        // "list.activeSelectionForeground": "#FFFFFF", // Active list item text color
+        // "list.inactiveSelectionBackground": "#37373D", // Inactive list item background
+        // "list.inactiveSelectionForeground": "#FFFFFF", // Inactive list item text color
+        // "list.focusBackground": "#094771", // Focused list item background      
+        // "list.focusForeground": "#FFFFFF", // Focused list item text color
+        // "scrollbarSlider.background": "#797979", // Scrollbar slider background
+        // "scrollbarSlider.hoverBackground": "#646464", // Scrollbar slider hover background
+        // "scrollbarSlider.activeBackground": "#BFBFBF" // Scrollbar slider active background
+    },
+
+    // LaTeX
+    "latex-workshop.latex.recipe.default": "latexmk",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+
+    // Editors
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.fontFamily": "'Ubuntu Mono'",
+    "editor.fontSize": 17,
+    "editor.renderWhitespace": "none",
+    "editor.lineNumbers": "on",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "editor.inlineSuggest.enabled": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.bracketPairs": false,
+    "editor.smoothScrolling": false,
+    "editor.codeLens": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.glyphMargin": false,
+    "editor.peekWidgetDefaultFocus": "editor",
+    "editor.hover.enabled": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tokenColorCustomizations": {
+        // "[Light Modern]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "constant.other.caps.python",
+                    ],
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.control",
+                        "keyword.control.flow",
+                        "keyword.control.conditional",
+                        "keyword.control.loop",
+                        "keyword.control.return"
+                    ],
+                    "settings": {
+                        "foreground": "#0000FF"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.language.python"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        // Python keywords / control flow
+                        "keyword.control.python",
+                        "keyword.control.flow.python",
+                        "keyword.control.import.python",
+                        "keyword.control.conditional.python",
+                        "keyword.control.repeat.python",
+                        "keyword.control.exception.python",
+                        "keyword.operator.logical.python",
+
+                        // async / def / class / global / nonlocal
+                        "storage.type.function.python",
+                        "storage.type.function.async.python",
+                        "storage.modifier.async.python",
+                        "storage.type.class.python",
+                        "storage.modifier.declaration.python"
+                    ],
+                    "settings": {
+                        "foreground": "#0000FF",
+                        "fontStyle": "bold"
+                    }
+                },
+            ]
+        // }
+    },
+     
+    // Ruff
+    "ruff.importStrategy": "useBundled",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll": "always"
+    },
+    //"files.autoSave": "onFocusChange",
+
+    // Docstring
+    "autoDocstring.docstringFormat": "google-notypes",
+
+    // Terminal
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.smoothScrolling": false,
+    "terminal.integrated.enableImages": true,
+
+    // CMake
+    "cmake.configureOnOpen": false,
+
+    // Python
+    "python.defaultInterpreterPath": "/home/matlev/venvs/sandbox",
+    "python.analysis.typeCheckingMode": "standard",
+    
+    // Git
+    "git.openRepositoryInParentFolders": "always",
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.currentLine.enabled": false,
+
+    // Misc / Toggle
+    "chat.commandCenter.enabled": false,
+    "breadcrumbs.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "apklab.apktoolPath": "/home/matlev/.apklab/apktool_3.0.2.jar",
+    "apklab.smaliLspPath": "/home/matlev/.apklab/smali-lsp-1.5.0.jar",
+    "apklab.apkSignerPath": "/home/matlev/.apklab/uber-apk-signer-1.3.0.jar",
+    "apklab.jadxDirPath": "/home/matlev/.apklab/jadx-1.5.3",
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.minimap.enabled": false,
+    "workbench.browser.showInTitleBar": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "hidden",
+    "chatgpt.localeOverride": "en-US"
+}
